@@ -1,4 +1,4 @@
-package com.freegrownextgen.freegrow.services;
+package com.freegrownextgen.freegrow.services.auth;
 
 import java.time.LocalDateTime;
 
@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.freegrownextgen.freegrow.enums.AccountStatusEnum;
 import com.freegrownextgen.freegrow.enums.response.ResponseEnums;
-import com.freegrownextgen.freegrow.implementations.AuthImpl;
 import com.freegrownextgen.freegrow.models.appuser.AppUserModel;
 import com.freegrownextgen.freegrow.models.requestdtos.auth.ForgotPasswordRequestDTO;
 import com.freegrownextgen.freegrow.models.requestdtos.auth.LoginRequesDTO;
@@ -17,6 +16,7 @@ import com.freegrownextgen.freegrow.models.utils.ResetPassword;
 import com.freegrownextgen.freegrow.models.utils.TempAppUserModel;
 import com.freegrownextgen.freegrow.repository.AuthRepository;
 import com.freegrownextgen.freegrow.repository.TempAuthRepository;
+import com.freegrownextgen.freegrow.services.EmailServices;
 import com.freegrownextgen.freegrow.utils.AuthUtils;
 import com.freegrownextgen.freegrow.utils.appRegex;
 

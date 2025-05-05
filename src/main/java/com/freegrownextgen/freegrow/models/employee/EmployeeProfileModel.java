@@ -7,7 +7,6 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.freegrownextgen.freegrow.models.utils.DesignationModel;
 import com.freegrownextgen.freegrow.models.utils.EducationModel;
 import com.freegrownextgen.freegrow.models.utils.Experience;
 import com.freegrownextgen.freegrow.models.utils.SkillModel;
@@ -21,20 +20,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Document(collection = "employee_profiles")
 public class EmployeeProfileModel {
-    private String employeeId;
-    private String department;
-    private DesignationModel designation;
-    private String joiningDate;
-    private String employeeStatus;
-    private String employeeType;
-    private String reportingManager;
-    private String employeeCode;
-    private String employeeLocation;
-    private String employeeShift;
-    private String employeeSalary;
-    private List<Experience> employeeExperience;
-    private List<SkillModel> employeeSkills;
-    private List<EducationModel> employeeEducation;
+    private String title;
+    private String description;
+    private String portfolioUrl;
+    private List<Experience> experience;
+    private List<SkillModel> skills;
+    private List<EducationModel> education;
     @CreatedDate
     private Instant createdAt;
 

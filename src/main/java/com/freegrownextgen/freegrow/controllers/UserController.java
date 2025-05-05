@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.freegrownextgen.freegrow.models.requestdtos.user.ConfigRoleRequestDto;
 import com.freegrownextgen.freegrow.models.responsedtos.user.ConfigRoleResponseDto;
-import com.freegrownextgen.freegrow.services.UserServices;
+import com.freegrownextgen.freegrow.services.user.UserServices;
 
 @RestController
 @RequestMapping("/user")

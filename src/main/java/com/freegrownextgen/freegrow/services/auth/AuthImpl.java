@@ -1,4 +1,4 @@
-package com.freegrownextgen.freegrow.implementations;
+package com.freegrownextgen.freegrow.services.auth;
 
 import com.freegrownextgen.freegrow.enums.response.ResponseEnums;
 import com.freegrownextgen.freegrow.models.requestdtos.auth.ForgotPasswordRequestDTO;

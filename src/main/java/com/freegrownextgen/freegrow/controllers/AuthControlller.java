@@ -15,7 +15,7 @@ import com.freegrownextgen.freegrow.models.requestdtos.auth.SignUpRequestDTO;
 import com.freegrownextgen.freegrow.models.responsedtos.auth.LoginResponseDTO;
 import com.freegrownextgen.freegrow.models.responsedtos.auth.ResponseDTO;
 import com.freegrownextgen.freegrow.repository.AuthRepository;
-import com.freegrownextgen.freegrow.services.AuthServices;
+import com.freegrownextgen.freegrow.services.auth.AuthServices;
 
 @RestController
 @RequestMapping("/auth")

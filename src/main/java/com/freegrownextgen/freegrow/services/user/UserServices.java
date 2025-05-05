@@ -1,10 +1,9 @@
-package com.freegrownextgen.freegrow.services;
+package com.freegrownextgen.freegrow.services.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.freegrownextgen.freegrow.enums.response.ResponseEnums;
-import com.freegrownextgen.freegrow.implementations.UserServicesImpl;
 import com.freegrownextgen.freegrow.models.appuser.AppUserModel;
 import com.freegrownextgen.freegrow.models.requestdtos.user.ConfigRoleRequestDto;
 import com.freegrownextgen.freegrow.repository.UserRepository;
