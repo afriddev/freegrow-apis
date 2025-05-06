@@ -1,6 +1,6 @@
 package com.freegrownextgen.freegrow.models.requestdtos.user;
 
-import com.freegrownextgen.freegrow.enums.RoleEnum;
+import com.freegrownextgen.freegrow.enums.utils.RoleEnum;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.freegrownextgen.freegrow.enums;
+package com.freegrownextgen.freegrow.enums.utils;
 
 public enum AccountStatusEnum {
     ACTIVE,

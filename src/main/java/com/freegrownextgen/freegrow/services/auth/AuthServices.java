@@ -5,8 +5,8 @@ import java.time.LocalDateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.freegrownextgen.freegrow.enums.AccountStatusEnum;
 import com.freegrownextgen.freegrow.enums.response.ResponseEnums;
+import com.freegrownextgen.freegrow.enums.utils.AccountStatusEnum;
 import com.freegrownextgen.freegrow.models.appuser.AppUserModel;
 import com.freegrownextgen.freegrow.models.requestdtos.auth.ForgotPasswordRequestDTO;
 import com.freegrownextgen.freegrow.models.requestdtos.auth.LoginRequesDTO;

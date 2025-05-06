@@ -6,9 +6,9 @@ import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import com.freegrownextgen.freegrow.enums.AccountStatusEnum;
-import com.freegrownextgen.freegrow.enums.MembershipPlanEnums;
-import com.freegrownextgen.freegrow.enums.RoleEnum;
+import com.freegrownextgen.freegrow.enums.utils.AccountStatusEnum;
+import com.freegrownextgen.freegrow.enums.utils.MembershipPlanEnums;
+import com.freegrownextgen.freegrow.enums.utils.RoleEnum;
 import com.freegrownextgen.freegrow.models.utils.ResetPassword;
 
 import lombok.AllArgsConstructor;

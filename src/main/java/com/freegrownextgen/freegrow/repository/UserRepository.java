@@ -4,7 +4,7 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.mongodb.repository.Update;
 
-import com.freegrownextgen.freegrow.enums.RoleEnum;
+import com.freegrownextgen.freegrow.enums.utils.RoleEnum;
 import com.freegrownextgen.freegrow.models.appuser.AppUserModel;
 
 public interface UserRepository extends MongoRepository<AppUserModel, String> {
