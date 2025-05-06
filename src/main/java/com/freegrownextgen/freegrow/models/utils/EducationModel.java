@@ -12,12 +12,14 @@ import lombok.NoArgsConstructor;
  * It contains various fields related to the user's educational background.
  */
 public class EducationModel {
-    private String degree;
-    private String institution;
-    private String yearOfPassing;
-    private String percentage;
-    private String specialization;
-    private String location;
+    private String school;
+    private String startMonth;
+    private String startYear;
+    private String endMonth;
+    private String endYear;
+    private float grade;
     private String description;
+    private List<SkillsModel> skills;
+    private boolean isShowInProfile = true;
     
 }
